@@ -20,3 +20,14 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
 }
+
+#app {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+
+  button { 
+    padding: 1em 2em;
+  }
+}
